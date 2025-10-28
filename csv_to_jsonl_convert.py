@@ -3,7 +3,7 @@ import json
 
 # ---- SETTINGS ----
 csv_file = "test_FamBear_chatbot_finetune - Sheet1.csv"  # input file (.csv or .xlsx)
-jsonl_file = "FamBear_chatbot_data.jsonl"  # output file
+jsonl_file = "FamBear_chatbot_data.jsonl"  # output file, you can change the name
 
 # ---- LOAD CSV ----
 if csv_file.endswith(".xlsx"):
